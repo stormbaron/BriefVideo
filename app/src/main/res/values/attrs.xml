@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleBarView">
+        <attr name="titleText" format="string" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="titleColor" format="color" />
+
+         
+        <attr name="leftText" format="string" />
+        <attr name="leftDrawable" format="reference" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="leftBackground" format="reference|color" />
+        <attr name="leftable" format="boolean" />
+        <attr name="rightText" format="string" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightDrawable" format="reference" />
+        <attr name="rightable" format="boolean" />
+        <attr name="rightBackground" format="reference|color" />
+    </declare-styleable>
+</resources>
