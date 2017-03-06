@@ -3,6 +3,8 @@ package com.baron.briefvideo.constant;
 import android.app.Application;
 import android.content.Context;
 
+import com.squareup.leakcanary.LeakCanary;
+
 public class ApplicationUtil extends Application {
 	private static Context context;
 
@@ -13,7 +15,7 @@ public class ApplicationUtil extends Application {
 	@Override
 	public void onCreate() {
 		context = getApplicationContext();
-		//LeakCanary.install(this);
+		LeakCanary.install(this);
 	}
 
 	@Override
